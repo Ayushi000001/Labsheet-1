@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+void main()=>runApp(MaterialApp(home:Scaffold(appBar:AppBar(title:Text('Icons')),body:Row(mainAxisAlignment:MainAxisAlignment.spaceEvenly,children:[Icon(Icons.home,size:50),Icon(Icons.favorite,size:50),Icon(Icons.person,size:50),Icon(Icons.settings,size:50)]))));

@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+void main()=>runApp(MaterialApp(home:Scaffold(appBar:AppBar(title:Text('Container')),body:Center(child:Container(width:220,height:120,margin:EdgeInsets.all(20),padding:EdgeInsets.all(20),decoration:BoxDecoration(borderRadius:BorderRadius.circular(15),border:Border.all(width:2)),child:Center(child:Text('Custom Container')))))));

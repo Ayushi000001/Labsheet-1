@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+void main()=>runApp(MaterialApp(home:Scaffold(appBar:AppBar(title:Text('Column')),body:Center(child:Column(mainAxisAlignment:MainAxisAlignment.center,children:[Text('Name'),Text('Course'),Text('College')])))));

@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+void main()=>runApp(MaterialApp(home:Scaffold(appBar:AppBar(title:Text('Text, Image & Icon')),body:Column(mainAxisAlignment:MainAxisAlignment.center,children:[Text('Flutter App',style:TextStyle(fontSize:24)),Image.network('https://picsum.photos/180',width:180,height:180),Icon(Icons.flutter_dash,size:60)]))));

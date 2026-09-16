@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+void main()=>runApp(MaterialApp(home:Scaffold(appBar:AppBar(title:Text('Text Styles')),body:Column(children:[Text('Bold Text',style:TextStyle(fontWeight:FontWeight.bold,fontSize:20)),Text('Italic Text',style:TextStyle(fontStyle:FontStyle.italic,fontSize:18)),Text('Large Text',style:TextStyle(fontSize:28)),Text('Center Aligned',textAlign:TextAlign.center)]))));
